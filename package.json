@@ -1,0 +1,16 @@
+{
+  "name": "basic_webpack_starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "webpack": "^5.54.0",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  },
+  "scripts" : {
+    "build-prod": "webpack",
+    "build-dev": "webpack serve"
+  }
+}
