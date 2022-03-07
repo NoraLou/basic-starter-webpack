@@ -7,7 +7,8 @@ module.exports = {
   stats: 'minimal',
   output: {
     "path": __dirname + '/dist',
-    "filename": "bundle.js"
+    "filename": "bundle.js",
+    hashFunction: "sha256"
   },
   devServer: {
     static: path.join(__dirname, 'dist')
